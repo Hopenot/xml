@@ -5,7 +5,7 @@ git clone git@github.com:Hopenot/xml.git
 Внутри локального XML создать файл “new.xml”.
 touch new.xml
 Добавить файл под гит.
-git init
+git add .
 Закоммитить файл.
 git commit -m "xml"
 Отправить файл на внешний GitHub репозиторий.
@@ -33,3 +33,4 @@ git commit -m "xml"
 Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 Синхронизировать внешний и локальный репозиторий XML
+Git pull
